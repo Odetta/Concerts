@@ -1,0 +1,65 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1px;
+    font-size: smaller;
+    margin: auto;
+}
+
+th {
+    background-color: #93a2a3;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #93a2a3;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+#topDiv {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #274546;
+}
+
+#body {
+    background-color: #274546;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.inputWindow {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: smaller;
+    text-align: center;
+    margin: auto;
+}
+
+.buttonWindow {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: smaller;
+    text-align: center;
+    margin: auto;
+}
+
+.btnDiv {
+    width: 150px;
+    padding: 5px;
+}
+
+#inputDiv {
+    background-color: #274546;
+    margin-top: 25px;
+}
+
